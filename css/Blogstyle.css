@@ -6,7 +6,7 @@ header nav li a{
     max-width: 940px;
 }
 .margin_blog_article{
-    margin: 20px 0px 32px 0px;
+    margin: 20px 0 32px 0;
     padding-bottom: 25px;
 }
 
@@ -16,10 +16,7 @@ header nav li a{
 }
 
 .second_section_blogsubtitle{
-    font-family: 'Heebo';
+    font:30px/44px 'Heebo-Bold';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 44px;
     color: #21243D;
 }

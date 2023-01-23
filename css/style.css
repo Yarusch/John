@@ -1,3 +1,56 @@
+@font-face {
+    font-family: 'Heebo-Regular';
+    src: url('../fonts/Heebo-Regular.eot');
+    src: url('../fonts/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Regular.woff2') format('woff2'),
+    url('../fonts/Heebo-Regular.woff') format('woff'),
+    url('../fonts/Heebo-Regular.ttf') format('truetype'),
+    url('../fonts/Heebo-Regular.svg#Heebo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo-Medium';
+    src: url('../fonts/Heebo-Medium.eot');
+    src: url('../fonts/Heebo-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Medium.woff2') format('woff2'),
+    url('../fonts/Heebo-Medium.woff') format('woff'),
+    url('../fonts/Heebo-Medium.ttf') format('truetype'),
+    url('../fonts/Heebo-Medium.svg#Heebo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo-Bold';
+    src: url('../fonts/Heebo-Bold.eot');
+    src: url('../fonts/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Bold.woff2') format('woff2'),
+    url('../fonts/Heebo-Bold.woff') format('woff'),
+    url('../fonts/Heebo-Bold.ttf') format('truetype'),
+    url('../fonts/Heebo-Bold.svg#Heebo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo-Black';
+    src: url('../fonts/Heebo-Black.eot');
+    src: url('../fonts/Heebo-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Heebo-Black.woff2') format('woff2'),
+    url('../fonts/Heebo-Black.woff') format('woff'),
+    url('../fonts/Heebo-Black.ttf') format('truetype'),
+    url('../fonts/Heebo-Black.svg#Heebo-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 *{
     padding: 0;
 
@@ -53,12 +106,16 @@ header div{
 
 header nav ul{
     display: flex;
-    list-style: none;
     transition: 0.5s;
 }
 
 header nav ul li{
     margin-left: 33px;
+    transition: 0.5s;
+}
+
+header nav ul li:hover{
+    transform: scale(2);
 }
 
 .menu_blog{
@@ -70,11 +127,8 @@ header nav ul li{
 }
 
 header nav li a{
-    font-family: 'Heebo';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
+    font: 20px/29px 'Heebo-Medium';
     text-align: right;
     text-decoration: none;
 
@@ -93,32 +147,23 @@ header nav li a{
 }
 
 .title{
-    font-family: 'Heebo';
+    font:44px/60px 'Heebo-Bold';
     font-style: normal;
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
     color: #21243D;
     margin-bottom: 40px;
 }
 
 .first_textblock{
     max-width: 498px;
-    font-family: 'Heebo';
+    font:16px/24px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     color: #21243D;
     margin-bottom: 38px;
 }
 
 .first_buttonblock{
-    font-family: 'Heebo';
+    font: 20px/29px 'Heebo-Medium';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
     color: #FFFFFF;
     background: #FF6464;
     border-radius: 2px;
@@ -135,22 +180,16 @@ header nav li a{
 }
 
 .Recent_title{
-    font-family: 'Heebo';
+    font:22px/60px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 60px;
     display: flex;
     align-items: flex-end;
     color: #21243D;
 }
 
 .View_all{
-    font-family: 'Heebo';
+    font:16px/24px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     text-align: right;
     color: #00A8CC;
     text-decoration: none;
@@ -158,11 +197,8 @@ header nav li a{
 }
 
 .Featured_works{
-    font-family: 'Heebo';
+    font:22px/60px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 60px;
     color: #21243D;
 }
 
@@ -174,57 +210,40 @@ header nav li a{
 }
 
 .margin_article1{
-    margin: 20px 0px 32px 0px;
+    margin: 20px 0 32px 0;
 }
 
 .margin_article2{
-     margin: 20px 0px 32px 20px;
+     margin: 20px 0 32px 20px;
 }
 
 section article h3{
-    font-family: 'Heebo';
+    font:26px/38px 'Heebo-Bold';
     font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 38px;
-
-    /* Dark Color */
-
     color: #21243D;
 }
 
-section article ul{
-    display: flex;
-    font-family: 'Heebo';
+section article span{
+    font:18px/26px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-
-    /* Dark Color */
-
     color: #21243D;
     margin-top: 17px;
 }
 
 section article p{
-    font-family: 'Heebo';
+    font:16px/24px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-
-    /* Dark Color */
-
     color: #21243D;
     margin-top: 11px;
 }
 
 .date_list{
+    font:20px/29px 'Heebo-Regular';
+    font-style: normal;
+    color: #21243D;
     padding-right: 25px;
     margin-right: 25px;
     border-right: 1.4px solid #000000;
-
 }
 
 .ml18{
@@ -235,28 +254,20 @@ section article p{
     background: #142850;
     border-radius: 16px;
     color: white;
-    font-family: 'Heebo';
+    font:18px 'Heebo-Black';
     font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
     padding: 4px 10px;
 }
 
 .name_href{
-    font-family: 'Heebo';
+    font:20px/29px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
     color: #8695A4;
 }
 
 .second_section_subtitle{
-    font-family: 'Heebo';
+    font:30px/44px 'Heebo-Bold';
     font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 44px;
     color: #21243D;
     margin-left: 18px;
 }
@@ -267,11 +278,8 @@ section article p{
 }
 
 .featured_text{
-    font-family: 'Heebo';
+    font:16px/24px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
     color: #21243D;
     margin-top: 17px;
 }
@@ -307,11 +315,8 @@ footer ul{
 }
 
 footer p{
-    font-family: 'Heebo';
+    font:14px/21px 'Heebo-Regular';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
     text-align: center;
     color: #21243D;
     margin-top: 26px;
