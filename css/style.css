@@ -1,55 +1,63 @@
 @font-face {
-    font-family: 'Heebo-Regular';
-    src: url('../fonts/Heebo-Regular.eot');
-    src: url('../fonts/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Heebo-Regular.woff2') format('woff2'),
-    url('../fonts/Heebo-Regular.woff') format('woff'),
-    url('../fonts/Heebo-Regular.ttf') format('truetype'),
-    url('../fonts/Heebo-Regular.svg#Heebo-Regular') format('svg');
+    font-family: 'heeboblack';
+    src: url('../fonts/heebo-black-webfont.eot');
+    src: url('../fonts/heebo-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-black-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-black-webfont.woff') format('woff'),
+    url('../fonts/heebo-black-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-black-webfont.svg#heeboblack') format('svg');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+
 }
+
+
+
 
 @font-face {
-    font-family: 'Heebo-Medium';
-    src: url('../fonts/Heebo-Medium.eot');
-    src: url('../fonts/Heebo-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Heebo-Medium.woff2') format('woff2'),
-    url('../fonts/Heebo-Medium.woff') format('woff'),
-    url('../fonts/Heebo-Medium.ttf') format('truetype'),
-    url('../fonts/Heebo-Medium.svg#Heebo-Medium') format('svg');
-    font-weight: 500;
+    font-family: 'heebobold';
+    src: url('../fonts/heebo-bold-webfont.eot');
+    src: url('../fonts/heebo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-bold-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-bold-webfont.woff') format('woff'),
+    url('../fonts/heebo-bold-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-bold-webfont.svg#heebobold') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-display: swap;
+
 }
+
+
+
 
 @font-face {
-    font-family: 'Heebo-Bold';
-    src: url('../fonts/Heebo-Bold.eot');
-    src: url('../fonts/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Heebo-Bold.woff2') format('woff2'),
-    url('../fonts/Heebo-Bold.woff') format('woff'),
-    url('../fonts/Heebo-Bold.ttf') format('truetype'),
-    url('../fonts/Heebo-Bold.svg#Heebo-Bold') format('svg');
-    font-weight: bold;
+    font-family: 'heebomedium';
+    src: url('../fonts/heebo-medium-webfont.eot');
+    src: url('../fonts/heebo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-medium-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-medium-webfont.woff') format('woff'),
+    url('../fonts/heebo-medium-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-medium-webfont.svg#heebomedium') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-display: swap;
+
 }
+
+
+
 
 @font-face {
-    font-family: 'Heebo-Black';
-    src: url('../fonts/Heebo-Black.eot');
-    src: url('../fonts/Heebo-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Heebo-Black.woff2') format('woff2'),
-    url('../fonts/Heebo-Black.woff') format('woff'),
-    url('../fonts/Heebo-Black.ttf') format('truetype'),
-    url('../fonts/Heebo-Black.svg#Heebo-Black') format('svg');
-    font-weight: 900;
+    font-family: 'heeboregular';
+    src: url('../fonts/heebo-regular-webfont.eot');
+    src: url('../fonts/heebo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-regular-webfont.woff') format('woff'),
+    url('../fonts/heebo-regular-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-regular-webfont.svg#heeboregular') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-display: swap;
-}
 
+}
 
 *{
     padding: 0;
@@ -128,7 +136,7 @@ header nav ul li:hover{
 
 header nav li a{
     font-style: normal;
-    font: 20px/29px 'Heebo-Medium';
+    font: 20px/29px 'heebomedium';
     text-align: right;
     text-decoration: none;
 
@@ -147,7 +155,7 @@ header nav li a{
 }
 
 .title{
-    font:44px/60px 'Heebo-Bold';
+    font:44px/60px 'heebobold';
     font-style: normal;
     color: #21243D;
     margin-bottom: 40px;
@@ -155,14 +163,14 @@ header nav li a{
 
 .first_textblock{
     max-width: 498px;
-    font:16px/24px 'Heebo-Regular';
+    font:16px/24px 'heeboregular';
     font-style: normal;
     color: #21243D;
     margin-bottom: 38px;
 }
 
 .first_buttonblock{
-    font: 20px/29px 'Heebo-Medium';
+    font: 20px/29px 'heebomedium';
     font-style: normal;
     color: #FFFFFF;
     background: #FF6464;
@@ -180,7 +188,7 @@ header nav li a{
 }
 
 .Recent_title{
-    font:22px/60px 'Heebo-Regular';
+    font:22px/60px 'heeboregular';
     font-style: normal;
     display: flex;
     align-items: flex-end;
@@ -188,7 +196,7 @@ header nav li a{
 }
 
 .View_all{
-    font:16px/24px 'Heebo-Regular';
+    font:16px/24px 'heeboregular';
     font-style: normal;
     text-align: right;
     color: #00A8CC;
@@ -197,7 +205,7 @@ header nav li a{
 }
 
 .Featured_works{
-    font:22px/60px 'Heebo-Regular';
+    font:22px/60px 'heeboregular';
     font-style: normal;
     color: #21243D;
 }
@@ -218,27 +226,27 @@ header nav li a{
 }
 
 section article h3{
-    font:26px/38px 'Heebo-Bold';
+    font:26px/38px 'heebobold';
     font-style: normal;
     color: #21243D;
 }
 
 section article span{
-    font:18px/26px 'Heebo-Regular';
+    font:18px/26px 'heeboregular';
     font-style: normal;
     color: #21243D;
     margin-top: 17px;
 }
 
 section article p{
-    font:16px/24px 'Heebo-Regular';
+    font:16px/24px 'heeboregular';
     font-style: normal;
     color: #21243D;
     margin-top: 11px;
 }
 
 .date_list{
-    font:20px/29px 'Heebo-Regular';
+    font:20px/29px 'heeboregular';
     font-style: normal;
     color: #21243D;
     padding-right: 25px;
@@ -254,19 +262,19 @@ section article p{
     background: #142850;
     border-radius: 16px;
     color: white;
-    font:18px 'Heebo-Black';
+    font:18px 'heeboblack';
     font-style: normal;
     padding: 4px 10px;
 }
 
 .name_href{
-    font:20px/29px 'Heebo-Regular';
+    font:20px/29px 'heeboregular';
     font-style: normal;
     color: #8695A4;
 }
 
 .second_section_subtitle{
-    font:30px/44px 'Heebo-Bold';
+    font:30px/44px 'heebobold';
     font-style: normal;
     color: #21243D;
     margin-left: 18px;
@@ -278,7 +286,7 @@ section article p{
 }
 
 .featured_text{
-    font:16px/24px 'Heebo-Regular';
+    font:16px/24px 'heeboregular';
     font-style: normal;
     color: #21243D;
     margin-top: 17px;
@@ -315,7 +323,7 @@ footer ul{
 }
 
 footer p{
-    font:14px/21px 'Heebo-Regular';
+    font:14px/21px 'heeboregular';
     font-style: normal;
     text-align: center;
     color: #21243D;
