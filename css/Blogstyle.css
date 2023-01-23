@@ -15,8 +15,8 @@ header nav li a{
     border-radius: 4px;
 }
 
-.second_section_blogsubtitle{
-    font:30px/44px 'Heebo-Bold';
+.second_section_blog_subtitle{
+    font:30px/44px 'heebobold';
     font-style: normal;
     color: #21243D;
 }
